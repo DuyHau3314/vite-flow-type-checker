@@ -1,0 +1,27 @@
+.ag-theme-acmecorp {
+  height: 100%;
+
+  .ag-row-focus {
+    z-index: 999;
+  }
+
+  .ag-row {
+    background-color: transparent;
+  }
+
+  .ag-header {
+    background-color: #f1f3fb;
+    color: #343a40;
+  }
+
+  .ag-cell {
+    color: #6c757d;
+    border-bottom: solid 1px;
+    border-bottom-color: #f1f3fa;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: smaller;
+    overflow: visible;
+  }
+}

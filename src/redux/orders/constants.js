@@ -1,0 +1,7 @@
+export const OrdersActionTypes = {
+    API_RESPONSE_SUCCESS: '@@orders/API_RESPONSE_SUCCESS',
+    API_RESPONSE_ERROR: '@@orders/API_RESPONSE_ERROR',
+    GET_ALL_ORDERS: '@@orders/GET_ALL_ORDERS',
+    CREATE_LABEL_FOR_ORDER: '@@orders/CREATE_LABEL_FOR_ORDER',
+    RESET_STATE: '@@orders/RESET_STATE'
+};

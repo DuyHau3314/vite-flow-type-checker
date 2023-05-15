@@ -1,0 +1,28 @@
+.my-modal {
+    opacity:0.1 !important;
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.service-selected {
+    background-color: rgb(250, 227, 238);
+}
+
+.pac-container {
+    background-color: #FFF;
+    z-index: 2001;
+    position: fixed;
+    display: inline-block;
+    float: left;
+}
+
+.modal{
+    z-index: 2000;
+}
+
+.modal-backdrop {
+    z-index: 1000;
+}

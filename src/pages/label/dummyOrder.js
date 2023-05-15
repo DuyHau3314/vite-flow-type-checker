@@ -1,0 +1,55 @@
+export const dummyOrder = {
+    id: '#BM31',
+    order_status: 'Packed',
+    items: [
+        {
+            id: 1,
+            name: 'The Military Duffle Bag',
+            quantity: 3,
+            price: '$128',
+            total: '$384',
+        },
+        {
+            id: 2,
+            name: 'Mountain Basket Ball',
+            quantity: 1,
+            price: '$199',
+            total: '$199',
+        },
+        {
+            id: 3,
+            name: 'Wavex Canvas Messenger Bag',
+            quantity: 5,
+            price: '$180',
+            total: '$900',
+        },
+        {
+            id: 4,
+            name: 'The Utility Shirt',
+            quantity: 2,
+            price: '$79',
+            total: '$158',
+        },
+    ],
+    gross_total: '$1641',
+    shipping_charge: '$23',
+    tax: '$19.22',
+    net_total: '$1683.22',
+    shipping: {
+        provider: 'Stanley Jones',
+        address_1: '795 Folsom Ave, Suite 600',
+        address_2: 'San Francisco, CA 94107',
+        phone: '(123) 456-7890 ',
+        mobile: '(+01) 12345 67890',
+    },
+    billing: {
+        type: 'Credit Card',
+        provider: 'Visa ending in 2851',
+        valid: '02/2020',
+    },
+    delivery: {
+        provider: 'UPS Delivery',
+        order_id: '#BM31',
+        payment_mode: 'COD',
+    },
+};

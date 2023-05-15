@@ -1,0 +1,8 @@
+export const ManifestsActionTypes = {
+    API_RESPONSE_SUCCESS: '@@manifests/API_RESPONSE_SUCCESS',
+    API_RESPONSE_ERROR: '@@manifests/API_RESPONSE_ERROR',
+    GET_ALL_MANIFESTS: '@@manifests/GET_ALL_MANIFESTS',
+    CREATE_MANIFEST_FOR_ALL_UNMANIFESTED: '@@manifests/CREATE_MANIFEST_FOR_ALL_UNMANIFESTED',
+    GET_MANIFEST: '@@manifests/GET_MANIFEST',
+    RESET_STATE: '@@manifests/RESET_STATE'
+};
